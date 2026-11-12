@@ -1,0 +1,16 @@
+{
+  "name": "Wind Waker HD Checklist",
+  "short_name": "WW Checklist",
+  "description": "Offline 100% checklist and progress hub for The Wind Waker HD",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#06151d",
+  "theme_color": "#071a24",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
