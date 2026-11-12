@@ -22,19 +22,20 @@
     <svg class="tri" viewBox="0 0 40 36" aria-hidden="true"><path d="M20 2 L27 14 H13Z M13 14 L20 26 H6Z M27 14 L34 26 H20Z" fill="#f2c14e" stroke="#04101a" stroke-width="2.2" stroke-linejoin="round"/></svg>
     <div class="titles">
       <h1>The Wind Waker <span>HD</span></h1>
-      <p id="subtitle">Great Sea Checklist</p>
     </div>
     <div id="overall-pct" class="pct">0%</div>
   </div>
   <div class="bar"><i id="overall-bar"></i></div>
   <div id="toolbar" class="toolbar">
-    <button id="btn-jump" type="button">Jump to</button>
-    <button id="btn-next" type="button">Next item</button>
-    <button id="btn-hide" type="button" aria-pressed="false">Hide done</button>
+    <button id="btn-chapters" type="button">Chapters</button>
+    <button id="btn-notes" type="button">Notes</button>
+    <button id="btn-collapse" type="button">Collapse all</button>
+    <button id="btn-search" type="button" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="3"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></button>
+    <button id="btn-sections" type="button">Dungeons</button>
   </div>
 </header>
 
-<main>
+<main id="scroller">
   <div id="list-view"><div id="list"></div></div>
   <div id="hub-view" hidden></div>
 </main>
@@ -44,14 +45,18 @@
   <button id="tab-hub" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>Hub</button>
 </nav>
 
+<button id="fab" type="button" hidden aria-label="Jump to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+
 <div id="sheet" hidden>
   <div class="sheet-bg"></div>
   <div class="sheet-card" role="dialog" aria-label="Jump to chapter">
-    <h2>Jump to a chapter</h2>
+    <h2 id="sheet-title">Chapters</h2>
     <div id="sheet-list"></div>
     <button id="sheet-close" type="button" class="wide">Close</button>
   </div>
 </div>
+<div id="drop" hidden><div id="drop-list"></div></div>
+<div id="tip" role="status"></div>
 <div id="toast" role="status" aria-live="polite"></div>
 
 <script src="data.js"></script>
