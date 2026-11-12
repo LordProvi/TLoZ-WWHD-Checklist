@@ -59,18 +59,6 @@
 <div id="tip" role="status"></div>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script>
-/* Home Screen app on iPhone: the layout viewport can come up short of the real screen.
-   Pin the app height to the actual screen so the tab bar sits at the bottom. */
-(function(){
-  if(!(navigator.standalone||matchMedia('(display-mode: standalone)').matches))return;
-  function fit(){
-    var land=innerWidth>innerHeight, sh=land?Math.min(screen.width,screen.height):Math.max(screen.width,screen.height);
-    if(!land)document.body.style.height=Math.max(sh,innerHeight)+'px';else document.body.style.height='';
-  }
-  fit();addEventListener('resize',fit);addEventListener('orientationchange',function(){setTimeout(fit,200)});
-})();
-</script>
 <script src="data.js"></script>
 <script src="app.js"></script>
 </body>

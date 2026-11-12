@@ -1,5 +1,5 @@
 // Offline cache. Bump VERSION whenever any file changes so phones pick up the update.
-const VERSION = 'ww-checklist-v6';
+const VERSION = 'ww-checklist-v5';
 const FILES = [
   './', 'index.html', 'style.css', 'app.js', 'data.js', 'manifest.webmanifest',
   'Icons/icon-192.png', 'Icons/icon-512.png', 'Icons/apple-touch-icon.png',

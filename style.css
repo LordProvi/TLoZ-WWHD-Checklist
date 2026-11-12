@@ -17,7 +17,7 @@ body{
     radial-gradient(1.5px 1.5px at 88% 14%,#fff7 50%,transparent 51%),
     radial-gradient(1px 1px at 38% 12%,#fff5 50%,transparent 51%),
     linear-gradient(#082533 0,#06151d 320px,#05121a 100%) fixed;
-  position:fixed;left:0;right:0;top:0;bottom:0;min-height:-webkit-fill-available;display:flex;flex-direction:column;overflow:hidden;overscroll-behavior:none;
+  position:fixed;inset:0;min-height:-webkit-fill-available;display:flex;flex-direction:column;overflow:hidden;overscroll-behavior:none;
   touch-action:manipulation;
 }
 button{font:inherit;color:inherit}
