@@ -18,7 +18,39 @@ A checklist for The Wind Waker HD (Wii U) that you can use on your phone while y
 
 ▲ Back up and restore your progress from the Hub
 
-▲ Add it to your phone's Home Screen and it works offline
+▲ Add it to your phone's Home Screen and it works ## How to use
+
+### Add it to your Home Screen
+
+1. Open the link in your browser on your mobile device.
+2. Open the browser's share or menu button.
+3. Tap **Add to Home Screen** (some browsers call it **Install app**), then confirm.
+4. Open it from the new icon from now on.
+
+Use the icon instead of a browser tab. It keeps your progress safer and works offline after the first load.
+
+### Check things off
+
+On the **Checklist** page, tap any item to check it off. Tap a chapter title to collapse it. Use **Jump to** to go to a chapter, **Next item** to find the first thing you haven't checked, and **Hide done** to hide finished items.
+
+The **Hub** page shows your totals, gear and progress. It updates from what you've checked.
+
+### Back up your progress
+
+Your progress saves on your device automatically. Back it up now and then in case your browser clears its data.
+
+1. Go to the **Hub** page and scroll to **Save & Backup**.
+2. Tap **Export file** to save a backup file to your device.
+3. Or tap **Copy backup** and paste the text into a notes app or a message to yourself.
+
+### Restore your progress
+
+1. Go to the **Hub** page and scroll to **Save & Backup**.
+2. Tap **Import file** and pick your backup file.
+3. Or tap **Paste backup**, paste the text, then tap **Restore from pasted text**.
+4. Confirm when it asks. This replaces your current progress with the backup.
+
+You can use the same steps to move your progress to a new device.
 
 ## Credit
 
