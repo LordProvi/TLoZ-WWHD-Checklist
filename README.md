@@ -18,7 +18,9 @@ A checklist for The Wind Waker HD (Wii U) that you can use on your phone while y
 
 ▲ Back up and restore your progress from the Hub
 
-▲ Add it to your phone's Home Screen and it works ## How to use
+▲ Add it to your phone's Home Screen and it works 
+
+## How to use
 
 ### Add it to your Home Screen
 
